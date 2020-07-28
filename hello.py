@@ -1,9 +1,9 @@
 from flask import Flask
-app = Flask(__name__)
+hello = Flask(__name__)
 
-@app.route('/')
+@hello.route('/')
 def hello_world():
      return '<B>Sri Aurobindo</B>'
 
 if __name__ == '__main__':
-    app.run()
+    hello.run()
